@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+/*Header Style*/
+.header_setion{
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_left{
+  flex: 30%;
+}
+.header_right{
+  flex: 70%;
+}
+.header_left p{
+  color: #ff4a57;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.header_right ul{
+  list-style: none;
+  text-align: right;
+  margin-top: 40px;
+}
+.header_right ul li{
+  display: inline-block;
+}
+.header_right ul li a{
+  text-decoration: none;
+  color: #ff4a57;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 15px;
+}
+/*Hero section*/
+.content{
+  display: flex;
+  margin-top: -30px;
+}
+.left_content{
+  flex: 50%;
+  margin-top: 200px;
+}
+.left_content strong{
+  color:#ff4a57;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight:700;
+}
+.left_content h1{
+  font-size: 50px;
+  padding: 0;
+  margin: 20px 0;
+}
+.right_content{
+  flex: 50%;
+  text-align: center;
+}
+/*About section*/
+.about_content{
+  display: flex;
+  margin: 0;
+  margin-top: 70px;
+}
+.left_about{
+  flex: 50%;
+  text-align: center;
+}
+.right_about{
+  flex: 50%;
+  margin-left: 80px;
+}
+.right_about h4{
+  font-size: 30px;
+  font-weight: 600;
+}
+.right_about p{
+  line-height: 25px;
+}
+.right_about button{
+  padding: 18px 25px;
+  background-color: #ff4a57;
+  color: #fff;
+  border: 1px solid #ff4a57;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.right_about button:hover{
+  background-color: #fff;
+  color: #ff4a57;
+  transition: 0.5s;
+}
